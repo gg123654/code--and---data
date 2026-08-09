@@ -1,0 +1,14 @@
+# YOLOv8 segmentation dataset config for local Crack-Seg
+# Example: yolo task=segment mode=train data="D:/python/Project/黄德林老师/龚国/STT/Crack-Seg/MX/yolov8/Crack-Seg/dataset.yaml"
+
+# Root of the dataset
+path: .
+
+# Image directories (relative to path)
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+names:
+  0: crack
