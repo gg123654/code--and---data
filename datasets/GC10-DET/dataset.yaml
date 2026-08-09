@@ -1,0 +1,17 @@
+# GC10-DET Dataset
+# Path to dataset
+path: .
+nc: 7
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+names:
+  0: crescent_gap      # Cg - 新月缺口
+  1: oil_spot          # Os - 油斑
+  2: punching          # Pu - 冲压
+  3: silk_spot         # Ss - 丝斑
+  4: waist_fold        # Wf - 腰折叠
+  5: water_spot        # Ws - 水斑
+  6: weld_line         # Wl - 焊接线

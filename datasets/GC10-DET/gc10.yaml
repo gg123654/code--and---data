@@ -1,0 +1,31 @@
+# GC10-DET 数据集配置文件
+# 用于YOLOv5/YOLOv8等深度学习框架
+
+# 数据集根目录（需包含 images 和 labels 子目录）
+path: D:\python\Project\黄德林老师\龚国\STT\GC10-NET\MX\yolov8\GC10-DET-YOLO
+
+# 训练、验证、测试集路径（相对于path）
+train: images/train
+val: images/val
+test: images/test
+
+# 类别数量
+nc: 7
+
+# 类别名称列表
+names:
+  0: crescent_gap      # Cg - 新月缺口
+  1: oil_spot          # Os - 油斑
+  2: punching          # Pu - 冲压
+  3: silk_spot         # Ss - 丝斑
+  4: waist_fold        # Wf - 腰折叠
+  5: water_spot        # Ws - 水斑
+  6: weld_line         # Wl - 焊接线
+
+# 数据集统计信息
+# 总图像数: 2001
+# 训练集: 1599 (79.9%)
+# 验证集: 200 (10.0%)
+# 测试集: 202 (10.1%)
+# 图片与标签完全一一对应
+
