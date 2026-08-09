@@ -1,0 +1,7 @@
+# E6: NEU-DET + GC10-DET strip-steel training (single-class defect for cross-domain eval)
+path: E6-cache/strip
+train: images/train
+val: images/val
+nc: 1
+names:
+  0: defect

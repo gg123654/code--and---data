@@ -1,0 +1,7 @@
+# E6 leave-one-class-out: train strip steel without NEU rolled-in_scale (RS held out)
+path: E6-cache/loo_no_rs
+train: images/train
+val: images/val
+nc: 1
+names:
+  0: defect

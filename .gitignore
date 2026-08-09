@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+runs/
+*.pt
+*.pth
+*.onnx
+.DS_Store
+Thumbs.db
+desktop.ini
